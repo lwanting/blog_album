@@ -210,7 +210,7 @@ def handle_photo():
             list_info[-1]['arr']['type'].append('image')
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
-    with open("/Blog/themes/next-reloaded/source/lib/data.json","w") as fp:
+    with open("F://Blog/themes/next-reloaded/source/lib/data.json","w") as fp:
         json.dump(final_dict, fp)
 
 
