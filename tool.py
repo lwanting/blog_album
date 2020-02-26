@@ -5,6 +5,8 @@ import os
 import sys
 import json
 from datetime import datetime
+
+
 #from ImageProcess import Graphics
 
 class Graphics:  
@@ -210,7 +212,7 @@ def handle_photo():
             list_info[-1]['arr']['type'].append('image')
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
-    with open("F://Blog/themes/next-reloaded/source/lib/data.json","w") as fp:
+    with open("F://Blog/themes/next-reloaded/source/lib/album/data.json","w") as fp:
         json.dump(final_dict, fp)
 
 
