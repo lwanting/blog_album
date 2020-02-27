@@ -116,9 +116,10 @@ def git_operation():
 
     os.system('git add --all')
     os.system('git commit -m "add photos"')
-    os.system('git push origin master')
+
 
 
 if __name__ == "__main__":
     handle_photo('photo/pic/', 'F://Blog/themes/next-reloaded/source/lib/album/photo.json')
     git_operation()  # 提交到github仓库
+    os.system('git push origin master')
