@@ -80,4 +80,3 @@ def generateThumbnail(src_dir, des_dir):
 
 if __name__ == '__main__':
     generateThumbnail('photo/pic/', 'photo/min_pic/')
-    generateThumbnail('game/pic/', 'game/min_pic/')

@@ -121,5 +121,4 @@ def git_operation():
 
 if __name__ == "__main__":
     handle_photo('photo/pic/', 'F://Blog/themes/next-reloaded/source/lib/album/photo.json')
-    handle_photo('game/pic/', 'F://Blog/themes/next-reloaded/source/lib/album/game.json')
     git_operation()  # 提交到github仓库
